@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GpsTracker</string>
+    <string name="headline">VIOM IOT MACHINES PRIVATE LIMITED</string>
+    <string name="passhint">Password(number)</string>
+    <string name="email">Email Address</string>
+    <string name="SOS1">SOS no.1</string>
+    <string name="SOS2">SOS no.2</string>
+    <string name="reg">Register</string>
+    <string name="name">Full name</string>
+    <string name="login">Register</string>
+    <string name="set">Settings</string>
+    <string name="call">phone call</string>
+    <string name="already_reg">Not Registered?Sign up</string>
+    <string name="minimum_password">phone should be of 10 digits !</string>
+    <string name="auth_failed">Authorisation failed !</string>
+    <string name="not_log_in">Could not log in</string>
+    <string name="log_out">Log Out</string>
+    <string name="revoke">Revoke</string>
+    <string name="not_close_session">Could not sign out</string>
+    <string name="not_revoke">Could not revoke access</string>
+    <string name="not_firebase_auth">Could not authenticate with Firebase</string>
+</resources>

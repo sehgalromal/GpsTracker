@@ -1,0 +1,15 @@
+<tabs>
+    <tab
+        id="@+id/tab_calls"
+        title="Calls"
+        activeColor="@color/colorAccent"
+        />
+    <tab
+        id="@+id/tab_groups"
+        title="Groups"
+        activeColor="@color/colorAccent" />
+    <tab
+        id="@+id/tab_chats"
+        title="Chats"
+        activeColor="@color/colorAccent"/>
+</tabs>

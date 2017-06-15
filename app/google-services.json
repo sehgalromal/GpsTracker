@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "279279394614",
+    "firebase_url": "https://gpstracker-f6cc2.firebaseio.com",
+    "project_id": "gpstracker-f6cc2",
+    "storage_bucket": "gpstracker-f6cc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279279394614:android:51638f6562e9e12d",
+        "android_client_info": {
+          "package_name": "vyom.com.gpstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279279394614-paklp1f0a5gbmpk3eq2b6k74hlb4hno6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcHRW0TssNaOsLUH6Swq2F_nXWD-wT5fs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/walls21"
+    android:layout_height="match_parent"
+    tools:context="vyom.com.gpstracker.AlreadyRegistered">
+
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        app:srcCompat="@drawable/phonecall"
+        android:id="@+id/imageView8"
+        tools:layout_editor_absoluteY="54dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edi_already_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="47dp"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_toRightOf="@+id/imageView8"
+        android:layout_toEndOf="@+id/imageView8"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp" />
+
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        app:srcCompat="@drawable/mailing"
+        android:id="@+id/imageView10"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/edi_already_phone"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView8" />
+
+
+
+    <EditText
+        android:id="@+id/edi_already_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edi_already_phone"
+        android:layout_alignStart="@+id/edi_already_phone"
+        android:layout_alignTop="@+id/imageView10"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/bt_already_sign_In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/tv_already_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Forgot Your password?Click here"
+        android:background="@null"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/bt_already_sign_In"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar_already"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_already_forgot_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_already_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/already_reg"
+        android:background="@null"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/tv_already_forgot_password"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
